@@ -2,7 +2,9 @@
   import Header from "$lib/Header.svelte"
   import BulmaExamples from "$lib/BulmaExamples.svelte"
 </script>
-
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600;700&family=Sniglet:wght@400;800&display=swap');
+</style>
 <Header />
 
 <main class="content section">
@@ -19,3 +21,7 @@
 <footer class="footer">
   <p class="has-text-centered">&copy; Craighead Diocesan School 2025</p>
 </footer>
+
+<style>
+  @import url("https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600;700&family=Sniglet:wght@400;800&display=swap");
+</style>
