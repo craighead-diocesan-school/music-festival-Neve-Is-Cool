@@ -15,8 +15,8 @@
     background-image: url("danny-howe.jpg");
     background-size: cover;
     background-position: center;
+    padding: 12%;
     height: 100vh;
-    padding-top: 13%;
   }
 
   .heading-container {
