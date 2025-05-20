@@ -21,15 +21,16 @@
 
   .heading-container {
     background-color: #a34f04;
-    width: 350px;
-    margin-left: 15%;
-    height: 300px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-right: 45%;
+    align-items: center;
   }
 
   h1 {
     color: #ede6c6;
     font-family: "Sniglet", system-ui;
-    font-size: 500%;
+    font-size: 415%;
     text-align: center;
   }
 
@@ -38,5 +39,6 @@
     font-family: "Belanosima", sans-serif;
     font-size: 200%;
     text-align: center;
+    margin-top: 20px;
   }
 </style>
