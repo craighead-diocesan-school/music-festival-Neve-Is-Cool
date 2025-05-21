@@ -1,6 +1,8 @@
 <script>
   import Header from "$lib/Header.svelte"
   import Nav from "$lib/Nav.svelte"
+  import Image from "$lib/Image.svelte"
+  import Footer from "$lib/Footer.svelte"
 </script>
 
 <Header heading="Sunburst Festival" subheading="General details" />
@@ -8,22 +10,29 @@
 
 <main class="content section">
   <h3>Key Information</h3>
-
-  <ul>
-    <li>Tickets are $200 per person</li>
-    <li>Festival goers must be 15 years of age or older</li>
-  </ul>
-  <p>Welcome to the ultimate music festival experience! Get ready for a day filled with live music, great food, and unforgettable memories.</p>
-  <!--Add image here. Will make a component for this. Could use a figcaption for each image as well within the image component-->
+  <div class="img-text-container">
+    <article class="text-beside-img">
+      <ul>
+        <li>Tickets are $200 per person</li>
+        <li>Festival goers must be 15 years of age or older</li>
+      </ul>
+      <p>Welcome to the ultimate music festival experience! Get ready for a day filled with live music, great food, and unforgettable memories.</p>
+    </article>
+    <Image src="aditya-chinchure.jpg" alt="Crowd watching dark stage" caption="&copy; Aditya Chinchure" />
+  </div>
   <p>Our festival features a diverse lineup of talented musicians from different genres, sure to satisfy every taste in music. With multiple stages set up throughout the venue, you can easily move from one act to the next, discovering new favorites and enjoying classic hits.</p>
   <p>From up-and-coming artists to established headliners, we have curated an exciting lineup that will keep you dancing and singing along all day long. Our festival is the perfect opportunity to discover new music, see your favorite artists live, and make lasting memories with friends and family.</p>
-  <p>But the music is just the beginning. Our festival also boasts an impressive selection of food vendors, offering everything from classic festival fare to more gourmet options. You won't go hungry with the delicious treats and refreshing beverages available throughout the venue.</p>
+  <div class="img-text-container">
+    <Image src="aranxa-esteve.jpg" alt="Three women sitting at festival" caption="&copy; Aranxa Esteve" />
+    <article class="text-beside-img">
+      <p>But the music is just the beginning. Our festival also boasts an impressive selection of food vendors, offering everything from classic festival fare to more gourmet options. You won't go hungry with the delicious treats and refreshing beverages available throughout the venue.</p>
+    </article>
+  </div>
   <p>In addition to the music and food, our festival also features a variety of activities to keep you entertained throughout the day. From art installations to merchandise booths, there is something for everyone to enjoy. You can even capture the memories with our festival photo booths and snap a selfie with your favorite artists.</p>
   <p>So don't miss out on this one-of-a-kind music festival experience. Get your tickets now and join us for a day of music, fun, and community. We can't wait to see you there!</p>
 </main>
-<footer class="footer">
-  <p class="has-text-centered">&copy; Craighead Diocesan School 2025</p>
-</footer>
+
+<Footer />
 
 <style>
   main {
@@ -55,5 +64,12 @@
     font-size: 120%;
     margin: 3%;
     margin-left: 10%;
+  }
+
+  .img-text-container {
+    display: flex;
+    align-items: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
   }
 </style>
