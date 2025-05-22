@@ -3,5 +3,5 @@
   import Nav from "$lib/Nav.svelte"
 </script>
 
-<Header heading="The Acts" subheading="Sunburst festival entertainment" />
+<Header heading="The Acts" subheading="Sunburst festival entertainment" caption="Danny Howe" />
 <Nav />

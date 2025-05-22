@@ -16,8 +16,6 @@
   }
 
   figure {
-    margin-left: 5%;
-    margin-right: 5%;
-    width: 100%;
+    width: 150%;
   }
 </style>

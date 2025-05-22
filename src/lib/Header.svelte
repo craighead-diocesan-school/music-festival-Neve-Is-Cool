@@ -1,6 +1,7 @@
 <script>
-  export let heading
-  export let subheading
+  export let heading = ""
+  export let subheading = ""
+  export let caption = ""
 </script>
 
 <header>
@@ -8,6 +9,7 @@
     <h1>{heading}</h1>
     <h2>{subheading}</h2>
   </div>
+  <p>Image &copy;{caption}</p>
 </header>
 
 <style>
@@ -40,5 +42,11 @@
     font-size: 200%;
     text-align: center;
     margin-top: 20px;
+  }
+
+  p {
+    font-family: "Belanosima", sans-serif;
+    color: #a34f04;
+    align-self: baseline;
   }
 </style>
