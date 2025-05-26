@@ -6,7 +6,7 @@
 
 <figure>
   <img {src} {alt} />
-  <figcaption>{caption}</figcaption>
+  <figcaption>&copy;{caption}</figcaption>
 </figure>
 
 <style>
