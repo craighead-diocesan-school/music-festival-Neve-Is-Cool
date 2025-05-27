@@ -25,14 +25,14 @@
     background-color: #a34f04;
     padding-top: 100px;
     padding-bottom: 100px;
-    margin-right: 45%;
+    margin-right: 40%;
     align-items: center;
   }
 
   h1 {
     color: #ede6c6;
     font-family: "Sniglet", system-ui;
-    font-size: 415%;
+    font-size: 320%;
     text-align: center;
   }
 
@@ -48,5 +48,31 @@
     font-family: "Belanosima", sans-serif;
     color: #a34f04;
     align-self: baseline;
+  }
+
+  @media (max-width: 850px) {
+    header {
+      padding-top: 25%;
+    }
+
+    .heading-container {
+      margin-right: 0%;
+      padding-top: 80px;
+      padding-bottom: 80px;
+    }
+
+    h1 {
+      font-size: 240%;
+    }
+
+    h2 {
+      font-size: 150%;
+    }
+  }
+
+  @media (max-width: 500px) {
+    header {
+      padding-top: 45%;
+    }
   }
 </style>
