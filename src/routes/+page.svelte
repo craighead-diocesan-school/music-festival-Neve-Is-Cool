@@ -74,4 +74,11 @@
     margin-top: 5%;
     margin-bottom: 5%;
   }
+
+  @media (max-width: 800px) {
+    .img-text-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
 </style>

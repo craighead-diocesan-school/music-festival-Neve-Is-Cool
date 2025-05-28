@@ -18,4 +18,10 @@
     font-family: "Belanosima", sans-serif;
     font-size: 150%;
   }
+
+  @media (max-width: 550px) {
+    a {
+      margin-top: 50px;
+    }
+  }
 </style>

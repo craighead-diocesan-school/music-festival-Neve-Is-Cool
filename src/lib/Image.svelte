@@ -18,4 +18,12 @@
   figure {
     width: 150%;
   }
+
+  @media (max-width: 800px) {
+    figure {
+      width: 100%;
+      margin-top: 3%;
+      margin-bottom: 3%;
+    }
+  }
 </style>
