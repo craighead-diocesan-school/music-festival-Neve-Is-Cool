@@ -9,7 +9,9 @@
     <h1>{heading}</h1>
     <h2>{subheading}</h2>
   </div>
-  <p>Image &copy;{caption}</p>
+  <div class="caption-container">
+    <p>Image &copy;{caption}</p>
+  </div>
 </header>
 
 <style>
@@ -62,17 +64,25 @@
     }
 
     h1 {
-      font-size: 240%;
+      font-size: 280%;
     }
 
     h2 {
-      font-size: 150%;
+      font-size: 160%;
     }
   }
 
   @media (max-width: 500px) {
     header {
       padding-top: 45%;
+    }
+
+    h1 {
+      font-size: 240%;
+    }
+
+    h2 {
+      font-size: 150%;
     }
   }
 </style>

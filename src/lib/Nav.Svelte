@@ -1,4 +1,4 @@
-<nav>
+<nav class="navbar">
   <a href="/">Home</a>
   <a href="/acts">Acts</a>
   <a href="/accommodation">Accommodation</a>
@@ -14,14 +14,16 @@
     color: #ede6c6;
     background-color: #a34f04;
     padding: 12px;
-    margin: 20px;
+    margin-right: 5%;
     font-family: "Belanosima", sans-serif;
     font-size: 150%;
   }
 
   @media (max-width: 550px) {
-    a {
-      margin-top: 50px;
+    nav a {
+      padding: 7px;
+      margin-right: 3%;
+      font-size: 110%;
     }
   }
 </style>
